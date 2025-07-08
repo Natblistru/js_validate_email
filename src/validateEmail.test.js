@@ -14,7 +14,7 @@ describe(`Function 'validateEmail':`, () => {
   });
 
   it(`should return true for a valid standard email`, () => {
-    expect(validateEmail('john.doe@mail-server.com.')).toBe(true);
+    expect(validateEmail('john.doe@mail-server.com')).toBe(true);
   });
 
   it(`should return true for valid minimal email`, () => {
